@@ -364,7 +364,7 @@ int update_ip_csum(unsigned char *ip_header)
     return 0;
 }
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) // lsend devname 1s tcp|udp|icmp
 {
     unsigned int i;
     int ret;
@@ -426,4 +426,4 @@ if(argv[3])  {
 
     return 0;
 }
-$ zjw@1
+
